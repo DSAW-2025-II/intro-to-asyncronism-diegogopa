@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 header {
-    background-color: red;   /* 🔴 fondo rojo */
-    padding: 15px;           /* espacio interno */
+    background-color: red;   
+    padding: 15px;           
     display: flex;
-    flex-direction: column;  /* logo arriba, filtros abajo */
-    align-items: center;     /* centrar contenido */
-    gap: 10px;               /* separación entre logo y botones */
+    flex-direction: column;  
+    align-items: center;     
+    gap: 10px;               
 }
 .logo {
     max-width: 150px;
     height: auto;
+    display: block;
+    margin: 0 auto; /* 🔥 Esto centra el logo horizontalmente */
 }
 body {
     min-height: 100vh;
@@ -305,4 +307,31 @@ main {
 .fairy {
     background-color: var(--type-fairy);
     color: var(--clr-black);
+}
+.buscador {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: .5rem;
+}
+
+#buscar {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#btnBuscar {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    background: rgb(255, 221, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#btnBuscar:hover {
+    background: darkred;
 }
