@@ -367,3 +367,6 @@ main {
     font-weight: bold;
     cursor: pointer;
 }
+.pokemon {
+    cursor: pointer;   /* ← Hace que aparezca la manito */
+}
