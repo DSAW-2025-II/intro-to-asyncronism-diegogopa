@@ -38,4 +38,3 @@
 | Funcionalidad      | 1.5      |
 
 ## Archivo Desplegado
-https://dsaw-2025-ii.github.io/intro-to-asyncronism-diegogopa/
